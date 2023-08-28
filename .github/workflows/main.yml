@@ -24,7 +24,7 @@ jobs:
         NAME: EVEREST
       with:
         arch: arm64
-        compiler: aosp-clang/master/clang-r416183b
+        compiler: clang/12/binutils
         defconfig: exynos9810-starlte_defconfig
         image: Image.gz-dtb
 
